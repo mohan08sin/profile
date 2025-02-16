@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOHAN</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="home.css">
+
+</head>
+<body>
+
+      <div id="Home" class="container">
+        <header>
+          <div>
+            <img class="logo" src="MSF.png" alt="logo">
+          </div>
+          <nav>
+            <span style="font-size: 125%">𝐌𝐄𝐍𝐔</span>
+            <button class="menu-button" onclick="showPage('mennu')"><i class="fa-solid fa-bars"></i></button>
+          </nav> 
+        </header>
+        <div>
+            <div class="name">
+              <span id="N">M</span>
+              <span id="A">O</span>
+              <span id="M">H</span>
+              <span id="E">A</span>
+              <span id="F">N</span>
+            </div>
+          <div class="w">
+            <span>WELCOME TO MY WORLD </span>
+          </div>
+        </div>
+    
+        <div class="box">
+          <div id="scroll-indicator">Scroll to Explore</div>
+          <div id="down"><botton><i class="fa-solid fa-angle-down"></i></botton></div>
+        </div>
+      </div>
+
+    <style>
+        .container{
+          display: none;
+        }
+    </style>
+
+      
+
+<!-- MENU PAGE  -->
+
+    <div id="mennu" class="container">
+      <header>
+        <div>
+          <img class="logoMu" src="MSF.png" alt="logo">
+        </div>
+        <nav>
+          <button class="menu-button" onclick="showPage('Home')"><i class="fa-solid fa-xmark"></i></button>
+        </nav> 
+      </header>
+      <div class="menu">
+        <div id="about"><a href="#ABOUT">About</a></div>
+        <div id="skills"><a onclick="showPage('SkillPage')">Skills</a></div>
+        <div id="contacts" ><a onclick="showPage('cont')">Contacts</a></div>
+        <div id="services"><a onclick="showPage('ServicePage')">Services</a></div>
+        <div id="projects"><a href="#PROJECTS">Projects</a></div>
+      </div>
+    </div>
+
+
+<!-- CONTACTS PAGE -->
+
+  <div id="cont" class="container">
+      
+      <header>
+        <div>
+          <img class="logoMu" src="MSF.png" alt="logo">
+        </div>
+        <nav>
+          <!-- <a href="./Homepage.html" class="menu-button"><i class="fa-solid fa-xmark"></i></a> -->
+          <button class="menu-button" onclick="showPage('mennu')"><i class="fa-solid fa-xmark"></i></button>
+        </nav> 
+      </header>
+
+        <div id="something" ><div class="bgtext">CONTACTS</div></div>
+
+    <div id="contactslogo">
+        
+      <a class="Common1" href="tel: +91 73408 68589" target="_blank">
+        <img class="Common" src="call.png" alt="Call Now">
+        Call Now
+      </a>
+
+      <a class="Common1" href="https://wa.me/7340868589?text=Hello%20!" target="_blank">
+        <img class="Common" src="wsp.png" alt="Whatsapp Message">
+        Whatsapp
+      </a>
+
+        <a class="Common1" href="https://www.linkedin.com/in/krishan-mohan-singh"  target="_blank">
+            <img class="Common" src="lin.png" alt="linklidn">LinkedIn
+        </a>
+
+      <a class="Common1" href="https://github.com/mohankrishan"  target="_blank">
+        <img class="Common" src="ffff.webp" alt="github">Github
+      </a>
+
+      <a class="Common1" href="https://t.me/mohan08sin"  target="_blank">
+        <img class="Common" src="tg.png" alt="Telegram">@mohan08sin
+      </a>
+
+      <a class="Common1" href="https://www.instagram.com/mohan08sin"  target="_blank">
+        <img class="Common" src="ig.png" alt="Instagram">@mohan08sin
+      </a>
+
+      <a class="Common1" href=""  target="_blank">
+        <img class="Common" src="fbb.png" alt="Facebook">Facebook
+      </a>
+
+      <a class="Common1" href="mailto:mohan08ks@gmail.com" target="_blank">
+        <img class="Common" src="maill.png" alt="mail">Mail
+      </a>
+
+      <a class="Common1" href="https://maps.app.goo.gl/An89oQQA3wamHsvb9" target="_blank">
+        <img id="map" class="Common" src="mapp.png" alt="mail">Map
+      </a>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div id="SkillPage" class="container">
+    <header>
+      <div>
+        <img class="logoMu" src="MSF.png" alt="logo">
+      </div>
+      <nav>
+        
+        <button class="menu-button" onclick="showPage('mennu')"><i class="fa-solid fa-xmark"></i></button>
+      </nav> 
+    </header>
+      <div id="skillb"><div class="bgtext">SKILLS</div></div>
+
+      <div id="skillslogo">
+        <div class="BOX">
+          <img src="./htmll.png" class="Common" height="80px" width="80px">
+          <p class="Common1" >HTML</p>
+        </div>
+        <div class="BOX">
+          <img src="./csss.png" class="Common" height="80px" width="80px">
+          <p class="Common1" >CSS</p>
+        </div>
+        <div class="BOX">
+          <img src="./jss.png" class="Common" height="80px" width="80px">
+          <p class="Common1" >JAVASCRIPT</p>
+        </div>
+        <div class="BOX">
+          <img src="./sqll.png" class="Common" height="80px" width="80px">
+          <p class="Common1" >SQL</p>
+        </div>
+      </div>
+  </div>
+
+  <!-- SERVICES -->
+
+  <div id="ServicePage" class="container">
+    <header>
+      <div>
+        <img class="logoMu" src="MSF.png" alt="logo">
+      </div>
+      <nav>
+        <button class="menu-button" onclick="showPage('mennu')"><i class="fa-solid fa-xmark"></i></button>
+      </nav> 
+    </header>
+
+    <div id="whatido"><span>What I Do</span></div>
+      <div id="serviceb"><div class="bgtext">SERVICES</div></div>
+    <section id="servicescontainer">
+
+      <div class="servicesbox">
+        <h1 class="center">Web Design/Development</h1>
+        <img src="./web.png" alt="service" class="Common" height="80px" width="80px">
+        <span class="center">Building responsive and high-performing websites tailored to your needs.</span>
+      </div>
+
+      <div class="servicesbox">
+        <h1 class="center">Backend Development</h1>
+        <img src="./database.png" alt="service" class="Common" height="80px" width="80px">
+        <span class="center">Creating robust and scalable server-side solutions.</span>
+      </div>
+
+      <div class="servicesbox">
+        <h1 class="center">Full Stack Development</h1>
+        <img src="./code.png" alt="service" class="Common" height="80px" width="80px">
+        <span class="center">Providing end-to-end solutions with expertise in both frontend and backend development.</span>
+      </div>
+
+      <div class="servicesbox">
+        <h1 class="center">Frontend Development</h1>
+        <img src="./web-icon-line-on-white-backgrounwebb.png" alt="service" class="Common" height="80px" width="80px">
+        <span class="center">Developing dynamic and engaging user experiences with modern frameworks.</span>
+      </div>
+
+      <div class="servicesbox" >
+        <h1 class="center">Video Editing</h1>
+        <img src="./vidd.png" alt="service" class="Common" height="80px" width="80px">
+        <span class="center">Creating captivating and professional videos for a variety of platforms.</span>
+      </div>
+
+      <div class="servicesbox">
+        <h1 class="center">Music Editing</h1>
+        <img src="./music.png" alt="service" class="Common" height="80px" width="100px">
+        <span class="center">Passionate music editor, transforming sound into an artful experience.</span>
+      </div>
+
+      <div class="servicesbox">
+        <h1 class="center">Telegram Bots</h1>
+        <img src="./tg.png" alt="service" class="Common" height="80px" width="80px">
+        <span class="center">Skilled Telegram bot creator, building intelligent bots to streamline communication and automate tasks.</span>
+      </div>
+
+      <div class="servicesbox">
+        <h1 class="center">Discord Bots</h1>
+        <img src="./discord.png" alt="service" class="Common" height="80px" width="80px">
+        <span class="center">Discord bot creator, designing custom bots to enhance server functionality and user interaction.</span>
+      </div>
+    </section>
+
+  </div>
+
+    <script>
+      function showPage(page) {
+      const pages = document.querySelectorAll('.container');
+      pages.forEach(p => p.style.display = 'none');
+      document.getElementById(page).style.display = 'block';
+      }
+      showPage('Home');
+
+  </script>
+
+</body>
+</html>
+
+
+
+
