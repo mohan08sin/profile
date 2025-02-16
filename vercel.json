@@ -1,9 +1,0 @@
-{
-    "routes": [
-      {
-        "src": "/[^.]+",
-        "dest": "/Homepage.html"
-      }
-    ]
-  }
-  
