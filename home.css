@@ -469,7 +469,7 @@ animation: blink 2s infinite;
   
   /* MEDIA QUERY */
 
-  @media ((max-width: 360px) and (max-height:740px)) {
+  @media ((max-width: 500px) and (max-height:1000px)) {
     body {margin: 0; 
       padding: 0; 
       background: black; 
