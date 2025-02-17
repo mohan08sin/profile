@@ -372,15 +372,14 @@ animation: blink 2s infinite;
     margin-left: 5px;
   }
   #servicescontainer{
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(2, auto);
-      gap: 20px;
+      display: flex;
+      gap: 40px;
       padding: 10px;
       justify-content: center;
       align-items: center;
       height: 100vh;
       width: 100vw;
+      flex-wrap: wrap;
     }
     
   .servicesbox{
