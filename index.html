@@ -59,11 +59,11 @@
         </nav> 
       </header>
       <div class="menu">
-        <div id="about"><a href="#ABOUT">About</a></div>
+        <div id="about"><a onclick="showPage('AboutContainer')">About</a></div>
         <div id="skills"><a onclick="showPage('SkillPage')">Skills</a></div>
         <div id="contacts" ><a onclick="showPage('cont')">Contacts</a></div>
         <div id="services"><a onclick="showPage('ServicePage')">Services</a></div>
-        <div id="projects"><a href="#PROJECTS">Projects</a></div>
+        <div id="projects"><a onclick="showPage('ProjectContainer')">Projects</a></div>
       </div>
     </div>
 
@@ -77,7 +77,6 @@
           <img class="logoMu" src="MSF.png" alt="logo">
         </div>
         <nav>
-          <!-- <a href="./Homepage.html" class="menu-button"><i class="fa-solid fa-xmark"></i></a> -->
           <button class="menu-button" onclick="showPage('mennu')"><i class="fa-solid fa-xmark"></i></button>
         </nav> 
       </header>
@@ -100,7 +99,7 @@
             <img class="Common" src="lin.png" alt="linklidn">LinkedIn
         </a>
 
-      <a class="Common1" href="https://github.com/mohan08sin"  target="_blank">
+      <a class="Common1" href="https://github.com/mohankrishan"  target="_blank">
         <img class="Common" src="ffff.webp" alt="github">Github
       </a>
 
@@ -127,6 +126,7 @@
   </div>
 
   <!-- SKILLS -->
+   
   <div id="SkillPage" class="container">
     <header>
       <div>
@@ -171,8 +171,8 @@
       </nav> 
     </header>
 
-    <div id="whatido"><span>What I Do</span></div>
       <div id="serviceb"><div class="bgtext">SERVICES</div></div>
+      <div id="whatido"><span>What I Do</span></div>
     <section id="servicescontainer">
 
       <div class="servicesbox">
@@ -223,7 +223,47 @@
         <span class="center">Discord bot creator, designing custom bots to enhance server functionality and user interaction.</span>
       </div>
     </section>
+  </div>
 
+
+<!-- PROJECTS -->
+
+  <div id="ProjectContainer" class="container">
+    <header>
+      <div>
+        <img class="logoMu" src="MSF.png" alt="logo">
+      </div>
+      <nav>
+        <button class="menu-button" onclick="showPage('mennu')"><i class="fa-solid fa-xmark"></i></button>
+      </nav> 
+    </header>
+    
+      <div id="projectb"><div class="bgtext">PROJECTS</div></div>
+  </div>
+
+  <!-- ABOUT -->
+
+  <div id="AboutContainer" class="container">
+    <header>
+      <div>
+        <img class="logoMu" src="MSF.png" alt="logo">
+      </div>
+      <nav>
+        <button class="menu-button" onclick="showPage('mennu')"><i class="fa-solid fa-xmark"></i></button>
+      </nav> 
+    </header>
+    
+      <div id="aboutb"><div class="bgtext">ABOUT</div></div>
+
+      <section class="main-sec">
+        <div class="intro">
+          <span>Hii, I'm Mohan !!</span>
+          <span>I'm a Fullstack Developer.</span>
+          <span>I have good Knowledge in Html, Css, Javascript, and Java.</span>
+          <a href="#" class="resumebtn">Resume</a>
+        </div>
+      </section>
+      
   </div>
 
     <script>
